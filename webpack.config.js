@@ -40,7 +40,8 @@ module.exports = {
     resolve: {
         alias: {
             '@': path.resolve(__dirname, 'app')
-        }
+        },
+        extensions: [ '.js', '.json', '.vue' ]
     },
     optimization: {
         minimize: true
