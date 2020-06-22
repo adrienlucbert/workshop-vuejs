@@ -1,12 +1,16 @@
 <template>
     <div>
-        <h1>My VueJS Application!</h1>
+        <article-viewer/>
     </div>
 </template>
 
 <script>
+import ArticleViewer from '@components/ArticleViewer'
+
 export default {
-    
+    components: {
+        ArticleViewer
+    }
 }
 </script>
 
